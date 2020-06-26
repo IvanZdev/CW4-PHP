@@ -1,0 +1,341 @@
+.activites-timeline {
+
+  background: url("../images/background-activites.jpg");
+  background-size: cover;
+  max-width:100%;
+  padding: 40px 0 0 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4{
+
+    margin:5px;
+  }
+
+  .border-titre-h4{
+    margin-bottom:50px;
+  }
+
+
+  .timeline{
+
+  position: relative;
+  max-width:100%;
+  margin: 0 auto;
+
+
+    .container:nth-child(odd){
+      left:0;
+    }
+
+    .container:nth-child(even){
+      left:50%;
+    }
+
+    .container {
+      padding: 0;
+      margin:0;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+      display:flex;
+
+
+      a{
+        display:flex;
+        width:100%;
+
+        .content {
+          padding: 0;
+          margin:0;
+          background-color: white;
+          position: relative;
+          border-radius: 6px;
+          display:flex;
+          flex-direction: row;
+        }
+      }
+
+      img{
+        width:100%;
+        height:400px;
+        position: relative;
+        object-fit: cover;
+      }
+
+}
+
+    .info-actvities-timeline{
+      position: absolute;
+      bottom:0;
+      width:100%;
+      background: rgba(#181717, 0.7);
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+
+      h5{
+        margin:0;
+        padding: 0;
+      }
+
+
+      ul{
+
+        display:flex;
+        list-style: none;
+        margin:0;
+
+        align-items: center;
+        padding: 15px;
+
+
+        li {
+          display: flex;
+          width: 100%;
+          line-height: 80%;
+          margin: 0;
+          align-items: center;
+          justify-content: flex-end;
+
+          i{
+            display:inline-block;
+            font-size:30px;
+            margin-right:10px;
+            align-items: center;
+
+          }
+
+          span{
+            display:flex;
+            margin: 0 10px 0 0;
+          }
+
+        }
+
+      }
+
+    }
+
+
+    .date-programme-evenement{
+      background:#181717;
+      width:400px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      h5{
+        text-align: center;
+        width:90%;
+
+      }
+
+    }
+
+
+}
+
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+.actvites-border-timeline{
+  width:60px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+  .activites-timeline {
+
+    background: url("../images/background-activites.jpg");
+    background-size: cover;
+    max-width:100%;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4{
+
+      margin:5px;
+    }
+
+    .border-titre-h4{
+      margin-bottom:50px;
+    }
+
+
+    .timeline{
+
+      position: relative;
+      max-width:none;
+      margin: 0;
+
+
+      .container:nth-child(odd){
+        left:0;
+      }
+
+      .container:nth-child(even){
+        left:0;
+      }
+
+      .container {
+        padding: 0;
+        margin:0;
+        position: relative;
+        background-color: inherit;
+        width: 100%;
+        display:flex;
+
+
+        a{
+          display:flex;
+          width:100%;
+
+          .content {
+            padding: 0;
+            margin:0;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            display:flex;
+            flex-direction: row;
+          }
+        }
+
+        img{
+          width:100%;
+          height:400px;
+          position: relative;
+          object-fit: cover;
+        }
+
+      }
+
+      .info-actvities-timeline{
+        position: absolute;
+        bottom:0;
+        width:100%;
+        background: rgba(#181717, 0.7);
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+
+        h5{
+          margin:0;
+          padding: 0;
+        }
+
+
+        ul{
+
+          display:flex;
+          list-style: none;
+          margin:0;
+          padding: 15px;
+          align-items: center;
+
+
+          li {
+            display: flex;
+            width: 100%;
+            line-height: 80%;
+            margin: 0;
+            align-items: center;
+            justify-content: flex-end;
+
+            i{
+              display:inline-block;
+              font-size:30px;
+              margin-right:10px;
+              align-items: center;
+
+            }
+
+            span{
+              display:flex;
+              margin: 0 10px 0 0;
+            }
+
+          }
+
+        }
+
+      }
+
+
+      .date-programme-evenement{
+        background:#181717;
+        width:200px;
+        height:100px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right:0;
+        top:0;
+
+
+
+        h5{
+          text-align: center;
+          width:100%;
+          margin:0;
+          padding: 0;
+          font-size:1rem;
+
+        }
+
+      }
+
+
+    }
+
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 15px;
+      background-color: white;
+      top: 0;
+      bottom: 0;
+      left: 99%;
+      right:0;
+
+    }
+
+    .actvites-border-timeline{
+      width:60px;
+    }
+
+
+
+
+  }
+
+
+}

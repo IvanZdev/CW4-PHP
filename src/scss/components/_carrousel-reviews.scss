@@ -1,0 +1,211 @@
+.reviews-cw4 {
+
+  background: url("../images/bg-review.jpg");
+  width:100%;
+  height:100%;
+
+
+
+  .review-contenu-cw4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4{
+      margin: 30px 0 0;
+      text-align: center;
+
+    }
+    hr{
+      margin-bottom: 60px;
+
+    }
+
+  }
+}
+
+
+.swiper-container{
+
+}
+
+.swiper-wrapper{
+  background:orange;
+  width:1000px;
+  height:50px;
+}
+.swiper-slide{
+
+  font-size:1.2rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background:#181717;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+
+
+
+  img{
+    width:60%;
+    padding: 30px;
+
+    border-radius: 50%;
+  }
+
+
+  p{
+    padding: 10px; ;
+  }
+
+
+  .nom-personne {
+    width:100%;
+    text-align: end ;
+    margin-right:30px;
+  }
+
+}
+
+
+.swiper-pagination {
+
+  width:100%;
+  position: static !important; ;
+
+  .swiper-pagination-bullet{
+    width:20px;
+    height:20px;
+    opacity: 0.8;
+    margin:10px;
+    background:#fff;
+  }
+
+  .swiper-pagination-bullet-active{
+    background:#CE4242;
+    opacity: 1;
+  }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 500px)  {
+
+  .endroit-carrousel-review{
+
+    width:500px;
+    margin:auto;
+
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+
+
+  .reviews-cw4 {
+
+
+    .review-contenu-cw4 {
+
+
+      h4{
+        font-size:1.3rem;
+        margin: 30px 0 0;
+
+      }
+      hr{
+        margin-bottom: 60px;
+
+      }
+
+    }
+  }
+
+
+  .swiper-container{
+
+
+  }
+
+  .swiper-wrapper{
+
+    width:1000px;
+    height:50px;
+  }
+  .swiper-slide{
+
+    font-size:1.2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:#181717;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+
+
+
+    img{
+      width:40%;
+      padding: 30px;
+
+      border-radius: 50%;
+    }
+
+
+    p{
+      padding: 10px; ;
+    }
+
+
+    .nom-personne {
+      width:100%;
+      text-align: end ;
+      margin-right:30px;
+    }
+
+  }
+
+
+  .swiper-pagination {
+
+    width:100%;
+    position: static !important; ;
+
+    .swiper-pagination-bullet{
+      width:20px;
+      height:20px;
+      opacity: 0.8;
+      margin:10px;
+      background:#fff;
+    }
+
+    .swiper-pagination-bullet-active{
+      background:#CE4242;
+      opacity: 1;
+    }
+
+  }
+
+
+}

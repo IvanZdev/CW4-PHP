@@ -1,0 +1,41 @@
+// LES STYLES DE BASE DES BALISES <h>
+
+
+h1{
+  font-size: rem(80);
+  font-family: $ff-titre-h1;
+  font-weight: normal;
+}
+
+h2{
+  font-size: rem(20);
+  font-family: $ff-titre-h2;
+}
+
+h3{
+  font-size: rem(48);
+  font-family: $ff-titre-h3;
+  font-weight: normal;
+
+}
+
+h4{
+  font-size: rem(36);
+  font-family: $ff-titre-h2;
+  font-weight: normal;
+
+}
+
+h5{
+  font-size: rem(20);
+  font-family: $ff-titre-h2;
+  font-weight: normal;
+
+}
+
+h6{
+    font-size: rem(18);
+    font-family: $ff-titre-h2;
+    font-weight: normal;
+
+  }

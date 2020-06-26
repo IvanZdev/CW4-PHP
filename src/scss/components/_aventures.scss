@@ -1,0 +1,240 @@
+
+.aventures-section{
+
+
+  display: flex;
+  flex-wrap: wrap;
+
+
+.aventure-contenu {
+
+  flex: 0 0 33.333%;
+
+  //hover pour les images
+
+  &:hover .image-aventures img{
+
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+
+ article  {
+
+   position: relative;
+
+   .image-aventures{
+
+     overflow: hidden;
+     height:auto;
+
+     img{
+       display:block;
+       width:100%;
+
+       object-fit: cover;
+
+       -webkit-transform: scale(1);
+       transform: scale(1);
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+
+     }
+
+   }
+
+
+   .info-aventure{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     position: absolute;
+
+     background: rgba(#181717, 0.7);
+     width:100%;
+     padding: 30px;
+     bottom:0;
+     pointer-events:none;
+
+
+     h5{
+
+       margin:0;
+
+     }
+
+
+     .aventures-border{
+       width:30%;
+       margin-bottom:20px;
+
+     }
+
+
+     .info-liste{
+
+       display:flex;
+       justify-content: space-between;
+
+       list-style: none;
+       margin:0;
+       padding: 0;
+       align-items: center;
+
+
+
+       i{
+         display:inline-block;
+         font-size:30px;
+         margin-right:10px;
+         align-items: center;
+
+       }
+
+
+
+       li{
+
+         display: flex;
+         line-height: 80%;
+         margin: 0 10px 0 0;
+         align-items: center;
+         justify-content: flex-end;
+         width:100%;
+
+
+         span{
+           display:flex;
+           margin: 0 10px 0 0;
+         }
+
+       }
+     }
+
+   }
+
+ }
+
+}
+
+}
+
+@media screen and (max-width: 1160px){
+
+  .aventures-section {
+    .aventure-contenu {
+      article {
+        .image-aventures {
+          img {
+          }
+        }
+        .info-aventure {
+          padding: 20px 10px 20px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1030px){
+
+
+  .aventures-section{
+    .aventure-contenu {
+      &:hover .image-aventures img{
+
+      }
+
+      article  {
+
+        .image-aventures{
+          img{
+            display:block;
+            width:100%;
+            object-fit: cover;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+
+          }
+
+        }
+
+        .info-aventure{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+
+          background: rgba(#181717, 0.7);
+          width:100%;
+          padding: 30px;
+          bottom:0;
+          pointer-events:none;
+
+
+          h5{
+
+            margin:0;
+
+          }
+
+          .aventures-border{
+            width:30%;
+            margin-bottom:20px;
+
+          }
+
+          .info-liste{
+
+            display:flex;
+            justify-content: space-between;
+
+            list-style: none;
+            margin:0;
+            padding: 0;
+            align-items: center;
+
+
+
+
+            i{
+              display:inline-block;
+              font-size:1.1rem;
+              margin-right:5px;
+              align-items: center;
+
+            }
+
+
+
+            li{
+
+              display: flex;
+              line-height: 80%;
+              margin: 0;
+              align-items: center;
+              justify-content: flex-end;
+              width:100%;
+              font-size:1.1rem;
+
+
+              span{
+                display:flex;
+                margin: 0 10px 0 0;
+              }
+
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}

@@ -1,0 +1,60 @@
+
+
+
+.partenaire{
+
+  background:url("../images/bg-partenaire.jpg");
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  h4{
+    margin: 10px 0 5px;
+  }
+.partenaires-contenu{
+
+  display:flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+  .partenaire-rond{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:140px;
+    height:140px;
+    background:#fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:30px;
+
+
+    img{
+
+      width:80%;
+
+
+    }
+
+    .bell{
+      width:50%;
+
+    }
+
+
+
+
+  }
+
+}
+
+
+}
+
+
+
+

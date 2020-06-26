@@ -1,0 +1,33 @@
+// STYLE DE BASE SUR LA BALISE BODY
+
+body,html{
+
+  @include font($ff-normal, $fz-normal, $color-text-normal, $lh-normal);
+
+  background: linear-gradient(to right, #4a4b4b, #140f0a);
+
+  overflow-x: hidden;
+  width:100%;
+
+  ::-webkit-scrollbar
+  {
+
+    width: 0 !important;
+
+  }
+
+  #fleche-haut {
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+    z-index: 100;
+
+    font-size:40px;
+    color:#fff;
+
+  }
+
+}
+
+
+
